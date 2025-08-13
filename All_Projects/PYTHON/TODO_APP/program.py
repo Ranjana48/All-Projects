@@ -14,6 +14,7 @@ c = cn.cursor()
 mwin = tk.Tk()
 mwin.geometry("300x300+200+200")  
 mwin.title("To-Do List Application")
+mwin.mainloop()
 def add():
   awin = tk.Tk()
   awin.geometry("300x200")
